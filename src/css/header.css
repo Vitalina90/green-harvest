@@ -1,10 +1,20 @@
 /* Styles for Mobile devices */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* background-color: var(--green-background); */
+    padding: 16px 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
 .header {
-    position: absolute;
-    top: 20px;
+    /* position: absolute; */
+    /* top: 20px; */
     left: 0;
     width: 100%;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .header-container {
